@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+    -webkit-font-smoothing: antialiased;
+    text-decoration: none;
+}
+header{
+    max-width: 1140px;
+    margin: auto;
+    height: 90px;
+    position: relative;
+
+}
+header a img{
+    padding-top: 27px;
+}
+header ul{
+    float: right;
+    padding-top: 40px;
+    position: relative;
+}
+li{
+    font-family: 'Roboto', sans-serif;
+    color: #444444;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: inline;
+    padding-right: 23px;
+    padding-left: 23px;
+    position: relative;
+}
+.bottom_menu li:hover{
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+}
+.left_line:hover:before{
+    content: "___";
+    /*padding-right: 18px;*/
+    position: absolute;
+    left: 0px;
+    bottom: 6px;
+}
+.owl-carousel .owl-nav, .owl-carousel .owl-nav, .owl-carousel button.owl-dot{
+    background-color: white;
+    width: 14px;
+    height: 14px;
+    margin: 0 20px;
+    border-radius: 20px;
+    border: solid 4px transparent;
+}
+.owl-prev{
+    position: absolute;
+    bottom: 300px;
+}
+.owl-next{
+    position: absolute;
+    right: 120px;
+    bottom: 300px;
+}
+.owl-dots{
+    position: absolute;
+    bottom: 55px;
+    width: 100%;
+    text-align: center;
+}
+.owl-carousel  button.owl-prev, .owl-carousel button.owl-next, .owl-carousel button.owl-dot.active{
+    border: solid 4px black;
+}
+section i{
+    font-size: 37px;
+    text-align: center;
+    border-radius: 60px;
+    padding: 10px;
+    border: solid 2px #fcfcfc;
+    color: #fcfcfc;
+    width: 38px;
+    height: 35px;
+}
+section i:hover{
+    border: solid 2px black;
+    background-color: black;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    position: absolute;
+    top: 267px;
+    left: 449px;
+}
