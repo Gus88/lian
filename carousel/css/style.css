@@ -25,6 +25,7 @@ li{
     font-family: 'Roboto', sans-serif;
     color: #444444;
     font-size: 14px;
+    font-weight: 700;
     text-transform: uppercase;
     display: inline;
     padding-right: 23px;
@@ -33,6 +34,7 @@ li{
 }
 .bottom_menu li:hover{
     color: #000000;
+    font-weight: 900;
     font-family: 'Lato', sans-serif;
 }
 .left_line:hover:before{
@@ -56,7 +58,7 @@ li{
 }
 .owl-next{
     position: absolute;
-    right: 120px;
+    right: 40px;
     bottom: 300px;
 }
 .owl-dots{
@@ -84,8 +86,48 @@ section i:hover{
 }
 h1{
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: white;
+    background-color: black;
     font-size: 48px;
+    padding: 1px 35px;
+}
+h2{
+    padding-top: 25px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 300;
+    color: #000000;
+}
+.owl-carousel a div{
+    max-width: 1140px;
+    margin: auto;
     position: absolute;
-    top: 267px;
-    left: 449px;
+    top: 250px;
+    left: 400px;
+}
+section .bottom_menu{
+    max-width: 1140px;
+    margin: auto;
+    text-align: center;
+    border-top: #e1e1e1 solid 2px;
+    border-bottom: #e1e1e1 solid 2px;
+    padding: 17px;
+}
+section .bottom_menu li:nth-child(1n+2):before{
+    content: "/";
+    font-size: 30px;
+    padding-right: 19px;
+    color: #dcdcdc;
+}
+.content{
+    max-width: 1140px;
+    margin: auto;
+    text-align: center;
+}
+.content span{
+    vertical-align: top;
+    display: inline-block;
+    padding-top: 29px;
+
 }
