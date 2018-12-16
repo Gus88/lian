@@ -161,3 +161,18 @@ footer a img{
     padding-top: 60px;
     padding-bottom: 45px;
 }
+.foot{
+    padding: 25px;
+    border-top: #ebebeb solid 2px;
+    border-bottom: #ebebeb solid 2px;
+}
+footer p{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #9c9c9c;
+    padding-top: 37px;
+}
+footer p span{
+    color: black;
+}
