@@ -5,6 +5,7 @@
     color: inherit;
     -webkit-font-smoothing: antialiased;
     text-decoration: none;
+    /*background-color: #fafafa;*/
 }
 header{
     max-width: 1140px;
@@ -124,10 +125,39 @@ section .bottom_menu li:nth-child(1n+2):before{
     max-width: 1140px;
     margin: auto;
     text-align: center;
+    /*display: inline-block;*/
 }
 .content span{
     vertical-align: top;
     display: inline-block;
     padding-top: 29px;
-
+}
+.butt_load{
+    background-color: #959595;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 4px;
+    padding: 11px 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+.centr{
+    padding-top: 35px;
+    padding-bottom: 75px;
+    max-width: 1140px;
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+footer{
+    max-width: 1600px;
+    height: 300px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-align: center;
+    font-size: 14px;
+}
+footer a img{
+    padding-top: 60px;
+    padding-bottom: 45px;
 }
