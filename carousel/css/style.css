@@ -55,12 +55,12 @@ li{
 }
 .owl-prev{
     position: absolute;
-    bottom: 300px;
+    bottom: 50%;
 }
 .owl-next{
     position: absolute;
     right: 40px;
-    bottom: 300px;
+    bottom: 50%;
 }
 .owl-dots{
     position: absolute;
@@ -98,14 +98,27 @@ h2{
     font-size: 18px;
     text-align: center;
     font-weight: 300;
+    font-family: 'Roboto', sans-serif;
     color: #000000;
 }
 .owl-carousel a div{
     max-width: 1140px;
     margin: auto;
     position: absolute;
-    top: 250px;
-    left: 400px;
+    top: 40%;
+    left: 30%;
+}
+/*для contact html*/
+.contact a div{
+    max-width: 1140px;
+    margin: auto;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    text-transform: uppercase;
+}
+.contact a img{
+    width: 100%;
 }
 section .bottom_menu{
     max-width: 1140px;
@@ -122,10 +135,11 @@ section .bottom_menu li:nth-child(1n+2):before{
     color: #dcdcdc;
 }
 .content{
-    max-width: 1140px;
-    margin: auto;
     text-align: center;
-    /*display: inline-block;*/
+}
+#contact{
+    background-color: #fafafa;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 .content span{
     vertical-align: top;
@@ -175,4 +189,88 @@ footer p{
 }
 footer p span{
     color: black;
+}
+/*страница контакта*/
+
+.conteiner{
+    display: inline-block;
+    width: 100%;
+    min-height: 450px;
+    padding-top: 80px;
+    max-width: 1140px;
+    margin: auto;
+    text-align: center;
+}
+.content .office_cont{
+    float: left;
+    text-align: left;
+}
+.office_cont:after{
+    content: "";
+    clear: both;
+}
+
+.content .office_cont h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: black;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.content .office_cont p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #777777;
+}
+.content .office_cont .tel{
+    line-height: 37px;
+    padding-bottom: 37px;
+}
+#psevdo:after{
+    display: block;
+    content: "________";
+    font-size: 20px;
+    color: #9c9c9c;
+}
+
+.content .office_cont p span{
+    display: inline;
+    font-weight: 700;
+    color: black;
+    font-size: 15px;
+}
+.form_back{
+    float: right;
+    max-width: 750px;
+}
+.form_back:after{
+    content: "";
+    clear: both;
+}
+.form_back .name_mail{
+    min-width: 48%;
+    border: solid 1px #ebebeb;
+}
+.name_mail:first-child{
+    margin-right: 1%;
+
+    border-left: #9c9c9c 2px solid;
+}
+#sms{
+    margin-top: 30px;
+    width: 98%;
+    min-height: 154px;
+}
+#send_but{
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 3px;
+    float: left;
+    margin-top: 30px;
+
 }
